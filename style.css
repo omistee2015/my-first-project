@@ -67,3 +67,35 @@ header p {
 .service-card p {
     line-height: 1.5;
 }
+section {
+    margin: 40px auto;
+    max-width: 900px;
+    padding: 20px;
+}
+
+.why-us,
+.about,
+.contact {
+    text-align: center;
+}
+
+.why-us p {
+    margin: 10px 0;
+}
+
+.contact {
+    border-radius: 10px;
+}
+
+.contact a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.whatsapp-button,
+.call-button {
+    font-weight: bold;
+}
