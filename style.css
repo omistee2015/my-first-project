@@ -34,3 +34,17 @@ li {
 }
 .call {
     background:#333333:
+header {
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 45px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
