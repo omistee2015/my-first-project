@@ -63,18 +63,18 @@ body {
 }
 
 .services {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
-
 
 /* SERVICE CARDS */
 
 .service-card {
     background: white;
-    width: 250px;
+    width: 100%;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
@@ -231,11 +231,15 @@ footer p {
         font-size: 16px;
     }
 
-    .service-card {
-        width: 100%;
-        max-width: 350px;
-    }
+   .services {
+    grid-template-columns: 1fr;
+}
 
+.service-card {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+}
     .button {
         display: block;
         max-width: 280px;
