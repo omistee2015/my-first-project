@@ -289,6 +289,25 @@ footer p {
 
 .hero-button:hover {
     opacity: 0.8;
+    .contact-info {
+    margin: 25px auto;
+    max-width: 600px;
+    font-size: 17px;
+}
+
+.contact-info p {
+    margin: 12px 0;
+}
+
+.contact-info a {
+    color: #222;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
 }@media (max-width: 600px) {
 
     .navbar {
