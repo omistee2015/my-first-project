@@ -307,6 +307,26 @@ footer p {
 .contact-info a:hover {
     text-decoration: underline;
 }
+    
+.about {
+    background: white;
+    border-radius: 12px;
+    margin: 40px auto;
+    padding: 40px 25px;
+    max-width: 900px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 17px;
+    margin: 15px auto;
+    max-width: 750px;
+}
 
 }@media (max-width: 600px) {
 
