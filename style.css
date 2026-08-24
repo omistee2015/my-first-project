@@ -832,3 +832,38 @@ a {
 
 /* =================================
    WHY US
+
+/* =================================
+   ABOUT TOP TECH
+   ================================= */
+
+.about {
+    background: #f4f7fb;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    color: #071a33;
+    margin-bottom: 35px;
+    font-weight: 800;
+}
+
+.about p {
+    max-width: 850px;
+    margin: 0 auto 18px;
+    color: #555;
+    font-size: 17px;
+    line-height: 1.9;
+}
+
+.about p:last-child {
+    margin-bottom: 0;
+}
+
+/* Highlight important text */
+
+.about strong {
+    color: #071a33;
+}
