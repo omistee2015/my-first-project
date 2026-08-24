@@ -792,3 +792,43 @@ a {
     }
 
 }
+
+/* =================================
+   WHY CHOOSE TOP TECH
+   ================================= */
+
+.why-us {
+    background: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.why-us h2 {
+    font-size: 36px;
+    color: #071a33;
+    margin-bottom: 45px;
+    font-weight: 800;
+}
+
+.why-us p {
+    max-width: 800px;
+    margin: 15px auto;
+    padding: 18px 25px;
+    background: #f4f7fb;
+    border-left: 5px solid #25d366;
+    border-radius: 8px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease;
+}
+
+.why-us p:hover {
+    transform: translateX(5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.09);
+}
+
+/* =================================
+   WHY US
