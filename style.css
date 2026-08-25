@@ -1033,3 +1033,269 @@ footer p:first-child {
         bottom: 16px;
     }
 }
+
+/* =========================================
+   FINAL TOP TECH WEBSITE POLISH
+   ========================================= */
+
+
+/* =========================================
+   NAVIGATION
+   ========================================= */
+
+.navbar {
+    padding: 15px 6%;
+    background: rgba(7, 26, 51, 0.98);
+}
+
+.navbar h2 {
+    font-weight: 800;
+}
+
+.nav-links a {
+    position: relative;
+    padding: 5px 0;
+}
+
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: #25d366;
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+
+/* =========================================
+   HERO FINAL POLISH
+   ========================================= */
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    margin-bottom: 10px;
+}
+
+.hero-content h2 {
+    font-weight: 700;
+}
+
+.hero-content p {
+    max-width: 700px;
+}
+
+.hero-services {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #25d366 !important;
+    margin-top: 5px !important;
+}
+
+
+/* =========================================
+   SERVICES
+   ========================================= */
+
+.services-section {
+    position: relative;
+}
+
+.services-section > p {
+    max-width: 700px;
+    margin: -20px auto 40px;
+    color: #666;
+    font-size: 16px;
+}
+
+.service-card {
+    min-height: 100%;
+}
+
+.service-card h3 {
+    margin-top: 18px;
+}
+
+.service-card p {
+    min-height: 75px;
+}
+
+
+/* =========================================
+   WHY CHOOSE TOP TECH
+   ========================================= */
+
+.why-us {
+    position: relative;
+}
+
+.why-us > p:first-of-type {
+    margin-top: 0;
+}
+
+.why-us p::first-letter {
+    color: #25d366;
+}
+
+
+/* =========================================
+   ABOUT SECTION
+   ========================================= */
+
+.about {
+    border-top: 1px solid #e2e8f0;
+}
+
+.about p:first-of-type {
+    font-size: 19px;
+    color: #071a33;
+    font-weight: 600;
+}
+
+
+/* =========================================
+   CONTACT SECTION
+   ========================================= */
+
+.contact {
+    background: linear-gradient(
+        135deg,
+        #eef3f8,
+        #ffffff
+    );
+}
+
+.contact-info {
+    border-top: 5px solid #25d366;
+}
+
+.contact-info p {
+    padding: 8px 0;
+}
+
+.contact .button {
+    min-width: 190px;
+}
+
+.contact .whatsapp {
+    font-size: 17px;
+}
+
+.contact .call {
+    font-size: 17px;
+}
+
+
+/* =========================================
+   FOOTER
+   ========================================= */
+
+footer {
+    border-top: 4px solid #25d366;
+}
+
+footer p:last-child {
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+
+/* =========================================
+   WHATSAPP BUTTON
+   ========================================= */
+
+.floating-whatsapp {
+    animation: whatsappPulse 2s infinite;
+}
+
+@keyframes whatsappPulse {
+
+    0% {
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    50% {
+        box-shadow: 0 5px 25px rgba(37, 211, 102, 0.55);
+    }
+
+    100% {
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+    }
+
+}
+
+
+/* =========================================
+   SMOOTH SECTION SPACING
+   ========================================= */
+
+section {
+    scroll-margin-top: 80px;
+}
+
+
+/* =========================================
+   MOBILE FINAL POLISH
+   ========================================= */
+
+@media (max-width: 600px) {
+
+    .navbar {
+        padding: 13px 12px;
+    }
+
+    .navbar h2 {
+        font-size: 22px;
+    }
+
+    .nav-links {
+        gap: 13px;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content h2 {
+        font-size: 21px;
+    }
+
+    .hero-buttons {
+        width: 100%;
+    }
+
+    .hero-button {
+        width: 90%;
+        max-width: 280px;
+    }
+
+    .service-card p {
+        min-height: auto;
+    }
+
+    .why-us p {
+        font-size: 15px;
+        padding: 16px;
+    }
+
+    .about p:first-of-type {
+        font-size: 17px;
+    }
+
+    .contact-info {
+        padding: 22px 15px;
+    }
+
+}
