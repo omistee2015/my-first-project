@@ -1,4 +1,6 @@
-# Top Tech Business Website
+![Top Tech Website](top-tech.jpg)
+
+# Top Tech Business Website# Top Tech Business Website
 
 ## 🌐 Live Website
 
